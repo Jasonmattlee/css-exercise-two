@@ -3,6 +3,7 @@ body {
   color: black;
   font-size: 16px;
 }
+
 a {
   text-decoration: none;
 }
@@ -24,12 +25,13 @@ a:active {
   } /* selected */
 
 h1 {
-  font-size: 2em; /* 32px */
+  font-size: 3em; /* 32px */
+  font-weight: bold;
 }
 
 h3 {
 font-size: 1.3em;
-line-height: 1.2
+line-height: 1.4;
 }
 
 p {
@@ -37,9 +39,8 @@ p {
   line-height: 2
 }
 
-p class="author" {
+.author {
   font-size: 1.2em
-
 }
 
 figcaption {
